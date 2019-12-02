@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // *** with Hooks ***
-//import App from './withHooks.js';
+import App from './withHooks.js';
 // *** without Hooks ***
-import App from './withoutHooks';
+// import App from './withoutHooks';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
